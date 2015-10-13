@@ -46,7 +46,7 @@ describe 'Some Context' do
     runner = Clumsy::TestRunner.new(server, test_file)
     runner.process
 
-    expect(server.did_receive_request("GET http://something.ngrok.com/foo/bar)).to be true
+    expect(server.did_receive_request('GET http://something.ngrok.com/foo/bar')).to be true
 
   end
 
