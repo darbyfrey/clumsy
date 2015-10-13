@@ -29,7 +29,7 @@ Clumsy is a tool for testing proxies in an end-to-end fashion. The idea for this
 * A running ngrok tunnel
 * A running instance of your proxy, pointing to your [ngrok](https://ngrok.com/) tunnel
 * A ruby test environment (rspec, etc.)
-* A "clumsy test" file to describe your test
+* A [clumsy test](#clumsy-test-file-structure) file to describe your test
 
 With all of that in place, you can setup a test like this:
 
