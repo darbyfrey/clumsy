@@ -7,5 +7,8 @@ module Clumsy
       @uri    = env["REQUEST_URI"]
     end
 
+    def to_s
+      "#{@method} #{@uri}"
+    end
   end
 end
